@@ -190,7 +190,7 @@ curl http://localhost:8000/health
 
 ### Frontend (Vercel)
 
-1. Connect your repository to Vercel
+1. Connect your repository to Vercel (via GitHub integration)
 2. Vercel will automatically detect the `vercel.json` configuration
 3. Set environment variables in Vercel dashboard
 4. Deploy
@@ -207,7 +207,7 @@ Each service under `apps/` can be deployed independently to Railway.
 **Deploying the API service:**
 
 1. Create a new service in Railway
-2. Connect your repository
+2. Connect your repository (via GitHub integration)
 3. **Set the root directory** to `apps/api` in Railway service settings
 4. Railway will automatically detect `railway.json` and `nixpacks.toml` in the service directory
 5. **Add Redis plugin**: Click "New" → "Database" → "Add Redis"
