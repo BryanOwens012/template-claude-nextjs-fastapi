@@ -270,7 +270,7 @@ apps/
     └── ...
 ```
 
-Each service is independently deployable with its own configuration and dependencies.
+Each service is independently deployable with its own configuration and dependencies. Not only does such a structure reduce coupling, but it also speeds up development by allowing you to run one Claude instance per service simultaneously without encountering merge conflicts.
 
 ## Environment Variables
 
