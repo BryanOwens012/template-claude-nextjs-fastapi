@@ -3,7 +3,7 @@ anyio==4.13.0
 certifi==2025.10.5
 click==8.3.2
 deprecation==2.1.0
-fastapi==0.135.3
+fastapi==0.136.0
 gotrue==2.12.4
 h11==0.16.0
 h2==4.3.0
@@ -16,9 +16,9 @@ hyperframe==6.1.0
 idna==3.11
 packaging==25.0
 postgrest==0.17.2
-pydantic==2.13.0
+pydantic==2.13.1
 pydantic-settings==2.13.1
-pydantic_core==2.46.0
+pydantic_core==2.46.1
 PyJWT==2.12.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.2.2
